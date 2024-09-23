@@ -1,0 +1,128 @@
+.user-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.password-container input {
+  width: calc(100% - 100px);
+}
+
+.toggle-password-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 8px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-password-btn:hover {
+  background-color: #bbb;
+}
+
+button.btn {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+button.btn:hover {
+  background-color: #45a049;
+}
+
+.user-list {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Ajusta o tamanho da coluna de Nome (70%) */
+td:nth-child(1) {
+  width: 70%;  /* Aumenta a largura da coluna de Nome */
+}
+
+/* Ajusta o tamanho da coluna de Ações (30%) */
+.actions-column {
+  width: 30%;  /* Diminui a largura da coluna de Ações */
+}
+
+/* Botões menores e um ao lado do outro */
+button.edit-btn, button.delete-btn {
+  padding: 5px 8px;   /* Diminui o tamanho dos botões */
+  font-size: 12px;     /* Ajusta o tamanho da fonte */
+  margin-right: 5px;   /* Espaço entre os botões */
+}
+
+/* Cores mais suaves para os botões */
+button.edit-btn {
+  background-color: #FFD54F; /* Cor mais suave para o botão de editar */
+}
+
+button.delete-btn {
+  background-color: #EF9A9A; /* Cor mais suave para o botão de excluir */
+}
+
+button.edit-btn:hover {
+  background-color: #FFB300; /* Cor um pouco mais intensa ao passar o mouse */
+}
+
+button.delete-btn:hover {
+  background-color: #E57373; /* Cor um pouco mais intensa ao passar o mouse */
+}
