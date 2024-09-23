@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-atribuicao-perfis',
+  selector: 'app-atribuir-perfis',
   template: `<h2>Atribuição de Perfis</h2>`,
-  standalone: true
 })
-export class AtribuicaoPerfisComponent {}
+export class AtribuirPerfisComponent {}
